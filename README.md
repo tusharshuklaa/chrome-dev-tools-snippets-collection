@@ -1,6 +1,13 @@
 # Chrome dev-tools snippets collection
+
+- [Chrome dev-tools snippets collection](#chrome-dev-tools-snippets-collection)
+  - [Introduction](#introduction)
+  - [What is Chrome dev-tools snippets?](#what-is-chrome-dev-tools-snippets)
+  - [Snippets](#snippets)
+    - [Design Mode](#design-mode)
+  - [Disclaimer](#disclaimer)
 ## Introduction
-Hey there __ ___🙌🏻___ __!
+Hey there ___🙌🏻___
 <br>
 This is a collection of useful/fancy snippets for chrome dev tools. I've picked some of them randomly from the internet 👨🏻‍🎤, some are inspired by some other code on internet 👨🏻‍🔬 and some are purely mine 👨🏻‍🎨
 
