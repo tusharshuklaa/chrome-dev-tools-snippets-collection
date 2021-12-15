@@ -66,9 +66,20 @@ devtools-snippets / formcontrols](https://github.com/bgrins/devtools-snippets/tr
 ### 1.3.4. Get Query Parameters
 [This snippet](/snippets/get-query-params.js) is a very simple yet useful snippet.
 <br>
-When you run the snippet on a page, it will print all of the query parameters in the URL in a nice & tidy table format in the console. This is helpful in viewing all of the query parameters when the URL is very long and contains non-legible texts.
+When you run the snippet on a page, it will print all of the query parameters as well as hash strings in the URL in a nice & tidy table format in the console. This is helpful in viewing all of the query parameters when the URL is very long and contains non-legible texts such as authentication URLs and complex redirection URLs.
 <br>
-**Reference**: [bgrins
+It also exposes two methods under `window` namespace i.e. `printQP` and 'printURLHash' to print query parameters and hash strings in the URL respectively. These methods also accept an optional URL string in case the desired URL is other than the current URL.
+<br>
+Usage:
+```js
+  // Will print query parameters of the current URL
+  window.printQP();
+  // Will print query parameters of the URL passed as an argument
+  window.printQP('https://example.com/page.html?token=skdjlsjdfsdsj');
+  // 'printURLHash' can be used similarly
+```
+<br>
+**Inspired from**: [bgrins
 /
 devtools-snippets / querystringvalues](https://github.com/bgrins/devtools-snippets/tree/master/snippets/querystringvalues)
 
