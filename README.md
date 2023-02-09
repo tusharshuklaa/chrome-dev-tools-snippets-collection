@@ -154,6 +154,13 @@ wrapElement(document.querySelector('#bar'), 'div');
 /
 devtools-snippets / viewcookies](https://github.com/bgrins/devtools-snippets/tree/master/snippets/viewcookies)
 
+### 1.3.12. Debug Reload(s)
+There are times when our app starts to unexpectedly reload continuously due to a bug. It then becomes really hard to find the root cause of this issue. [This snippet](/snippets/debug-reload.js) adds a breakpoint on *unload* and *beforeunload* events and then we can check the stacktrace to check what is causing the reload(s).
+<br>
+Usage:
+Just run the snippet and it will add the relvant breakpoint.
+<br>
+**Reference**: [stackoverflow](https://stackoverflow.com/a/73836850/2996624)
 ## 1.4. Disclaimer
 
 I'll keep on adding new snippets as I find/write new ones and will add references of original sources as well. Let me know in case I've missed adding any credit for any of the code I'm sharing here. Also, please feel free to open a pull request if you'd like to contribute.
